@@ -8,6 +8,8 @@ signUp.addEventListener('click', (e) => {
   let signUpEmail = document.createElement('input');
   signUpEmail.classList.add('email');
   signUpEmail.setAttribute('placeholder', 'Enter Your Email');
+  
+  
   signUpForm.appendChild(signUpEmail);
 
   let signUpPassword = document.createElement('input');
